@@ -1,0 +1,8 @@
+rm -rf new_boot.img
+cd mkbootimg_tools
+rm -rf boot
+./mkboot boot.img boot
+cp ../arch/arm/boot/zImage ./boot/kernel
+./mkboot boot ../new_boot.img
+rm -rf boot
+
