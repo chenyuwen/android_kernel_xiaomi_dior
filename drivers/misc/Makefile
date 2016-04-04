@@ -73,4 +73,3 @@ obj-$(CONFIG_QPNP_MISC) += qpnp-misc.o
 obj-$(CONFIG_IMMERSION_HAPTIC) += tspdrv/
 obj-$(CONFIG_UID_CPUTIME) 	+= uid_cputime.o
 obj-y				+= sound_control.o
-obj-y				+= mz_git_info/
